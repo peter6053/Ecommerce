@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html,body{font-family:"open sans", "Helvatica Neue", Helvatica,Arial,san-serif;
+background-color:#f3f3f4;
+color:#676a6c;
+height:100%;
+}
+#side-menu{background-color:#2A2A2A;
+padding:0px;
+}
+#side-menu h1{color:#1f3647;
+text-align:center;
+font-size:25px;
+margin:10px 0px;
+}
+#side-menu ul{list-style:none;
+padding:0px;
+margin:0px;
+}
+#side-menu a{padding:12px 20px;
+text-decoration:none;
+color:#9fb1c2;
+font-size:13px;
+font-weight:bold;
+display:block;
+}
+#side-menu .active{background-color:#293846;
+color:#fff;
+}
+#side-menu .setting-btn{background-color:#1ab394;}
+#side-menu .setting-btn a:hover{background-color:#1ab394;}
+#side-menu .setting-btn{color:#fff:
+}
+#side-menu .collapseable li{padding-left:19px;
+padding-top:5px;}
+#side-menu .collapseable a{color:#9fb1c2;
+font-size:12px; padding:0px 10px; text-decoration:none;
+display:block;}
+#side-menu .collapseable a:hover{color:#fff;}
+#side-menu .collapseable{border-left:4px solid #1ab394;
+background-color:#293846;}
+#side-menu a:hover{background-color:#293846;
+color:#fff;
+display:block;
+}
+#side-menu .gylphicon{margin-right:6px;}
+.box{border:1px #990000 dotted;}
+.display-table{display:table;
+padding:0px;
+height:100%;
+width:100%;
+}
+.display-table-row{display:table-row;
+height:100%;
+}
+.display-table-cell{display:table-cell;
+float:none;
+height:100%;
+}
+.valign-top{vertical-align:top;
+}
+#nav-header{background-color:#fff;
+border-bottom:1px solid #e7eaec;
+}
+#nav-header #search{padding-top:17px;
+vertical-align:central; border:none;
+outline:none; width:300px;
+}
+#nav-header ul{margin:0px;
+padding:0px; list-style:none; color:#676a6c;
+}
+#nav-header ul li{float:left; margin-left:15px; padding:17px 0px;
+}
+.label-message{background-color:#1ab394;}
+#nav-header ul a {text-decoration:none;}
+#nav-header .log{color:#F93;}
+#nav-header .log:Hover{color:#676a6c;}
+#nav-header .fixed-with{width:35px;}
+#nav-header .label{position:absolute;
+margin-left:-5px;
+margin-top:-10px;}
+#admin-footer{
+position:absolute;
+bottom:0px;
+width:100%;
+background-color:#fff;
+padding:10px;
+font-size:12px;
+color:#676a6c;}
+.navbar-default{background-color:#fff}
+.navbar-default .navbar-toggle{border-color:#1ab394;
+background-color:#1ab394;}
+.navbar-default .icon-bar{border: 1px solid white;
+}
+.navbar-default .navbar-toggle:hover{background-color:#1ab394;}
+.navbar-default .navbar-toggle:focus{background-color:#1ab394;}

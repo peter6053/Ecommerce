@@ -1,0 +1,7 @@
+{
+  "require": {
+    "stripe/stripe-php": "3.*",
+    "thedevsaddam/world-countries": "^1.1",
+    "smodav/mpesa": "^1.1"
+  }
+}
